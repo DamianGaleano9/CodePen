@@ -1,3 +1,5 @@
+/* STYLES for left nav */
+
 .nav-container {
     height: 60px;
     width: 100%;
@@ -38,7 +40,7 @@
 .nav-container > .navigation-wrapper-left > .nav-menus > .explore-wrapper {
     font-size: 0.5em;
     position: absolute;
-    top: 18px;
+    top: 20px;
     left: 70px;
 }
 
@@ -60,46 +62,83 @@
 
 .nav-container > .navigation-wrapper-left > .dropdown-spark {
     align-items: center;    
-/*  background-color: blueviolet;
- */ display: grid;
+    display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 0px 20px;  
     justify-content: center;
     font-size: 0.8em;
 }
 
+.nav-container > .navigation-wrapper-left > .dropdown-spark > .material-symbols-outlined {
+    margin-top: 10px;
+    margin-left: 10px;
+}
 
 .nav-container > .navigation-wrapper-left > .nav-menus a {
     text-decoration: none;
     color: whitesmoke;
 }
 
-
-.nav-container > .navigation-wrapper-left > .dropdown-spark > .material-symbols-outlined {
-    margin-top: 10px;
-}
+/* STYLES for right nav */
 
 .nav-container > .navigation-wrapper-right {
     width: 30%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    font-size: 0.7em;
+}
+
+.nav-container > .navigation-wrapper-right > .create-dropdown {
+    width: 100px;
+    background-color: rgb(85, 85, 85);
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.nav-container > .navigation-wrapper-right > .login-user {
+    width: 100px;
+    background-color: rgb(85, 85, 85);
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.nav-container > .navigation-wrapper-right > .sign-up {
+    width: 100px;
+    background-color: rgb(85, 85, 85);
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 10px;
+    
+}
+
+.nav-container > .navigation-wrapper-right > .create-dropdown {
+    align-items: center;    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0px 20px;  
+    justify-content: center;
     font-size: 0.8em;
 }
 
-
-
-
-/*
-.nav-container > .navigation-wrapper-left > .components-nav > .nav-menus {
-    display: flex;
-    flex-direction: row;
+.nav-container > .navigation-wrapper-right > .create-dropdown > .material-symbols-outlined {
+    color: greenyellow;
+    padding-top: 3px;
 }
 
 
+/*STYLES for Social Development */
 
-
-*/
+.social-development {
+    background: rgb(2,0,36);
+    background: linear-gradient(97deg, rgba(2,0,36,1) 0%, rgba(172,172,172,1) 0%, rgba(0,0,0,1) 94%);
+    height: 1000px;
+}
 
 
 
