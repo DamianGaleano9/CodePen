@@ -143,8 +143,7 @@
 
 
 .social-development > .codepen-left {
-    background-color: blue;
-    width: 1000px;
+    width: 900px;
     height: 200px;
     margin: 100px;
 }
@@ -163,12 +162,53 @@
 }
 
 .social-development > .codepen-left > .enviroments {
-    font-size: 3em;
+    font-size: 3.2em;
+    font-weight: 500;
 }
 
 .social-development > .codepen-left > .ispiration {
     font-size: 2.5em;
+    font-weight: 600;
 }
+
+
+/* Styles Btn Sign Up */
+
+.social-development > .codepen-left > .buttons-wrapper {
+    display: flex;
+    justify-items: flex-start;
+}
+
+.social-development > .codepen-left > .buttons-wrapper > .btn-free button {
+    width: 350px;
+    height: 90px;
+    background-color: rgb(64, 230, 139);
+    margin: 10px 20px 10px 0px;
+    padding: 10px 20px;
+    border-radius: 3px;
+    justify-items: center;
+    color: black;
+    border: none;
+    font-size: 2.5em;
+    justify-content: center;
+}
+
+
+.social-development > .codepen-left > .buttons-wrapper > .btn-learn button {
+    width: 250px;
+    height: 91px;
+    background-color: black;
+    margin: 10px 20px 10px 0px;
+    padding: 10px 20px;
+    border-radius: 3px;
+    color: whitesmoke;
+    border: none;
+    font-size: 2.5em;
+}
+
+
+
+
 
 /* Styles Spark dropdown */
 
