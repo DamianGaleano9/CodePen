@@ -54,7 +54,7 @@
 }
 
 .nav-container > .navigation-wrapper-left > .nav-menus > .links-wrapper > .sub-nav{
-    font-weight: 900;
+    font-weight: 950;
 }
 
 .nav-container > .navigation-wrapper-left > .dropdown-spark {
@@ -213,12 +213,12 @@
     margin-top: 90px;
     margin-left: 20px;
     font-size: 1.8em;
-    font-weight: 900;
+    font-weight: 950;
 }
 
 /* Styles SPARK DROPDOWN */
 
-ul {
+/* ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -291,3 +291,32 @@ ul {
 	top: 0;
 	transform: rotate(270deg);
 }
+ */
+
+
+ /* STYLES FOR FOOTER */
+
+ .footer-grapper {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: gray;
+ }
+
+
+.footer-grapper > .sections {
+    align-items: center;
+    width: 100%;
+    background-color: rgb(55, 67, 80);
+    color: whitesmoke;
+    padding-bottom: 30px;
+    margin: 1px;
+    text-align: center;
+    text-shadow: 2px 0 rgb(255, 250, 250);
+    letter-spacing: -1px;
+    font-weight: bolder;
+ }
+
+/*  .footer-grapper > .sections > h1 {
+    justify-content: center;
+ } */
