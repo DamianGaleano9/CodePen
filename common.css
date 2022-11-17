@@ -4,3 +4,14 @@ body {
     font-family: 'Lato', sans-serif;
 
 }
+
+
+@font-face {
+    font-family: "myFont";
+    src: url("../codepen\ pag\ finalproyect/fonts/Catamaran.ttf");
+}
+
+
+#custom-font {
+    font-family: "myFont";
+}
