@@ -1,5 +1,4 @@
 /* STYLES FOR LEFT NAV */
-
 .nav-container {
     height: 70px;
     width: 100%;
@@ -10,14 +9,14 @@
     align-items: center;
 }
 
-.nav-container > .navigation-wrapper-left {
+.nav-container>.navigation-wrapper-left {
     width: 70%;
     height: 60px;
     display: flex;
     align-items: center;
 }
 
-.nav-container > .navigation-wrapper-left img {
+.nav-container>.navigation-wrapper-left img {
     width: 200px;
     height: 45px;
     margin: 20px 0px;
@@ -25,7 +24,7 @@
     justify-content: center;
 }
 
-.nav-container > .navigation-wrapper-left > .nav-menus {
+.nav-container>.navigation-wrapper-left>.nav-menus {
     display: grid;
     grid-template-columns: 1fr;
     padding-top: 15px;
@@ -33,24 +32,23 @@
     height: 100px;
     font-size: 0.8em;
     position: relative;
-    
 }
 
-.nav-container > .navigation-wrapper-left > .nav-menus > .explore-wrapper {
+.nav-container>.navigation-wrapper-left>.nav-menus>.explore-wrapper {
     font-size: 0.5em;
     position: absolute;
     top: 20px;
     left: 64px;
 }
 
-.nav-container > .navigation-wrapper-left > .nav-menus > .explore-wrapper a {
+.nav-container>.navigation-wrapper-left>.nav-menus>.explore-wrapper a {
     color: yellow;
     text-shadow: 1px 0 rgb(217, 255, 0);
     letter-spacing: 1px;
     font-weight: bolder;
 }
 
-.nav-container > .navigation-wrapper-left > .nav-menus > .links-wrapper {
+.nav-container>.navigation-wrapper-left>.nav-menus>.links-wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -62,46 +60,44 @@
     padding-left: 46px;
 }
 
-.nav-container > .navigation-wrapper-left > .nav-menus > .links-wrapper > .sub-nav h1{
+.nav-container>.navigation-wrapper-left>.nav-menus>.links-wrapper>.sub-nav h1 {
     font-weight: 950;
     width: 80px;
     height: 40px;
 }
 
-.nav-container > .navigation-wrapper-left > .dropdown-spark > .spark {
+.nav-container>.navigation-wrapper-left>.dropdown-spark>.spark {
     display: flex;
-    padding: 0px 20px;  
+    padding: 0px 20px;
     font-size: 0.8em;
     align-items: center;
     margin-left: 10px;
 }
 
-.nav-container > .navigation-wrapper-left > .dropdown-spark > .spark > .material-symbols-outlined {
+.nav-container>.navigation-wrapper-left>.dropdown-spark>.spark>.material-symbols-outlined {
     margin-left: 10px;
     margin-top: 6px;
     font-size: 2.9em;
 }
 
-.nav-container > .navigation-wrapper-left > .nav-menus a {
+.nav-container>.navigation-wrapper-left>.nav-menus a {
     text-decoration: none;
     color: whitesmoke;
 }
 
 /* STYLES FOR RIGHT NAV */
 
-.nav-container > .navigation-wrapper-right {
+.nav-container>.navigation-wrapper-right {
     width: 30%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     font-size: 0.7em;
-    
     height: 30px;
     margin-right: 15px;
-
 }
 
-.nav-container > .navigation-wrapper-right > .create-dropdown {
+.nav-container>.navigation-wrapper-right>.create-dropdown {
     width: 150px;
     background-color: rgb(85, 85, 85);
     border-radius: 4px;
@@ -110,25 +106,24 @@
     margin-bottom: 10px;
 }
 
-
-.nav-container > .navigation-wrapper-right > .create-dropdown {
+.nav-container>.navigation-wrapper-right>.create-dropdown {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 0px 20px;  
+    padding: 0px 20px;
     height: 55px;
     color: white;
     text-shadow: 1px 0 rgb(255, 255, 255);
     letter-spacing: 0px;
 }
 
-.nav-container > .navigation-wrapper-right > .icon-serch span {
+.nav-container>.navigation-wrapper-right>.icon-serch span {
     font-size: 5em;
     color: gray;
     padding: 30px;
     justify-content: center;
 }
 
-.nav-container > .navigation-wrapper-right > .login-user {
+.nav-container>.navigation-wrapper-right>.login-user {
     width: 120px;
     background-color: rgb(85, 85, 85);
     border-radius: 4px;
@@ -141,7 +136,7 @@
     letter-spacing: 0px;
 }
 
-.nav-container > .navigation-wrapper-right > .sign-up {
+.nav-container>.navigation-wrapper-right>.sign-up {
     width: 200px;
     background-color: rgb(85, 85, 85);
     border-radius: 4px;
@@ -155,8 +150,7 @@
     letter-spacing: 0px;
 }
 
-
-.nav-container > .navigation-wrapper-right > .create-dropdown > .material-symbols-outlined {
+.nav-container>.navigation-wrapper-right>.create-dropdown>.material-symbols-outlined {
     color: rgb(47, 255, 99);
     padding-top: 3px;
     font-size: 3.5em;
@@ -167,8 +161,8 @@
 /*STYLES FOR SOCIAL DEVELOPMENT */
 
 .social-development {
-    background: rgb(0,0,0);
-    background: linear-gradient(338deg, rgba(0,0,0,1) 0%, rgba(80,88,103,1) 100%);
+    background: rgb(0, 0, 0);
+    background: linear-gradient(338deg, rgba(0, 0, 0, 1) 0%, rgba(80, 88, 103, 1) 100%);
     height: 800px;
     color: whitesmoke;
     display: grid;
@@ -176,57 +170,54 @@
     position: relative;
 }
 
-
-.social-development > .codepen-left {
+.social-development>.codepen-left {
     width: 900px;
     height: 200px;
     margin: 100px;
 }
 
-.social-development > .codepen-left > .enviroments > p {
+.social-development>.codepen-left>.enviroments>p {
     text-shadow: 1px 0 rgb(255, 255, 255);
     letter-spacing: 0px;
     font-weight: 500;
 }
 
-.social-development > .codepen-left > .enviroments span{
+.social-development>.codepen-left>.enviroments span {
     text-shadow: 2px 0 rgb(199, 199, 199);
     letter-spacing: -1px;
     font-weight: bolder;
 }
 
-.social-development > .codepen-right > .img-project img {
+.social-development>.codepen-right>.img-project img {
     position: absolute;
     right: 0px;
     bottom: 0px;
     width: 800px;
 }
 
-.social-development > .codepen-left > .enviroments img {
+.social-development>.codepen-left>.enviroments img {
     height: 45px;
     width: 45px;
 }
 
-.social-development > .codepen-left > .enviroments {
+.social-development>.codepen-left>.enviroments {
     font-size: 3.2em;
     font-weight: 500;
 }
 
-.social-development > .codepen-left > .ispiration {
+.social-development>.codepen-left>.ispiration {
     font-size: 2.5em;
     font-weight: 600;
 }
 
-
 /* STYLES BUTTONS*/
 
-.social-development > .codepen-left > .buttons-wrapper {
+.social-development>.codepen-left>.buttons-wrapper {
     display: flex;
     justify-items: flex-start;
-    
 }
 
-.social-development > .codepen-left > .buttons-wrapper > .btn-free button {
+.social-development>.codepen-left>.buttons-wrapper>.btn-free button {
     width: 350px;
     height: 90px;
     background-color: rgb(64, 230, 139);
@@ -243,8 +234,7 @@
     justify-content: center;
 }
 
-
-.social-development > .codepen-left > .buttons-wrapper > .btn-learn button {
+.social-development>.codepen-left>.buttons-wrapper>.btn-learn button {
     width: 250px;
     height: 91px;
     background-color: black;
@@ -259,10 +249,9 @@
     font-size: 2.5em;
 }
 
+/* STYLES FOR RIGHT CODE PROJECTSC*/
 
-/* STYLES FOR RIGHT CODE PROJECTSC*/ 
-
-.social-development > .codepen-right > .projects p {
+.social-development>.codepen-right>.projects p {
     margin-top: 90px;
     margin-left: 20px;
     font-size: 1.8em;
@@ -271,24 +260,23 @@
     font-weight: bold;
 }
 
-.social-development > .codepen-right > .projects font {
+.social-development>.codepen-right>.projects font {
     font-size: 1em;
     text-shadow: 1px 0 rgb(62, 169, 240);
     letter-spacing: 0px;
     font-weight: bold;
 }
 
- /* STYLES FOR FOOTER */
+/* STYLES FOR FOOTER */
 
- .footer-grapper {
+.footer-grapper {
     display: flex;
     width: 100%;
     height: 80px;
     background-color: gray;
- }
+}
 
-
-.footer-grapper > .sections {
+.footer-grapper>.sections {
     display: flex;
     align-items: center;
     width: 350px;
@@ -300,21 +288,17 @@
     letter-spacing: 0px;
     font-weight: bold;
     font-family: 'lato', sans-serif;
- }
+}
 
-/*  .footer-grapper > .sections h1 {
-    justify-content: center;
- } */
-
- .footer-grapper > .sections p {
+.footer-grapper>.sections p {
     padding-top: 10px;
     font-size: 1.2em;
     text-align: center;
     margin-right: 2px;
- }
+}
 
- .footer-box {
+.footer-box {
     background: linear-gradient(338deg, rgb(32, 31, 31) 0%, rgb(27, 27, 29) 100%);
     width: 100%;
     height: 100px;
- }
+}
